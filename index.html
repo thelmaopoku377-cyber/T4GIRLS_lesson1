@@ -4,9 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Practice</title>
+    <style>
+      img{
+        width: 150px;
+        height: 200px;
+        border: 4px solid goldenrod;
+        margin: 50px;
+      }
+     
+     .img1{
+         border: 10px double darkred; /* the 3 values represent: border-width border-style border color*/
+         margin: 10px 50px; /* the 2 values represent: top&b0ttom left&right */
+
+     }
+     
+     .img2{
+      border: 12px dotted darkgreen;
+      margin: 10px 25px 20px; /* the 3 values represent: top left&right bottom */ 
+     }
+     p{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+        /*word-spacing: 13px;*/
+        line-height: 1.8;
+        text-align: justify;
+        
+        
+
+        
+
+
+        
+      }
+
+
+      button{
+        color: blueviolet;
+        background-color: aquamarine;
+        opacity: 0.75;
+        width: 150px;
+        height:25px;
+        border: 1px solid blueviolet;
+        border-radius:10px ;
+        
+
+      
+      
+        
+        
+      }
+
+    body{
+   /* overflow-y: hidden;*/
+    }
+    </style>
 </head>
 <body>
-  <h1></h1>Welcome to HTML lessons with Tech4Girls
+   <h1></h1>Welcome to HTML lessons with Tech4Girls
   <p>HTML is the program that  <b>producs the skeleton</b> of a webpage <br>
   Think of it like the raw <i>raw blocks</i> or bricks that make up the house. <br>
   It may not look very <u>visually appealling</u> see the blocks or bricks 
@@ -29,8 +84,9 @@
  <h5>Other Tags</h5>
   <h6>Embedded Tags</h6>
  <!-- This is a comment  -->
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx6bVd90Fn_MfodOGdMCN5d_8bAbLc13YuxOjBDgvQEA&s=10" alt="Founder - Ambassador Johanna">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx6bVd90Fn_MfodOGdMCN5d_8bAbLc13YuxOjBDgvQEA&s=10" alt="Founder - Ambassador Johanna">
+  <img class='img1'src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx6bVd90Fn_MfodOGdMCN5d_8bAbLc13YuxOjBDgvQEA&s=10" alt="Founder - Ambassador Johanna">
+  <img class="img2"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx6bVd90Fn_MfodOGdMCN5d_8bAbLc13YuxOjBDgvQEA&s=10" alt="Founder - Ambassador Johanna">
+  <img class='img3'src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx6bVd90Fn_MfodOGdMCN5d_8bAbLc13YuxOjBDgvQEA&s=10" alt="Founder - Ambassador Johanna">
   <button>buy now</button>
   <a href="https://en.wikipedia.org/wiki/Google" target="_blank" rel="noopener noreferrer">Link to Google</a>
   <a href="pages/about.html" target="_blank" rel="noopener noreferrer">About Us Page</a>
@@ -41,6 +97,6 @@
     <li><a href="pages/login.html" rel="noopener noreferrer">Login</a></li>
     <li><a href="pages/signup.html" rel="noopener noreferrer">Signup</a></li>
   </ul>
-  <img src="lesson1/images/53058101855859989.jpg" alt="hairbraids">
+  <img src="images/Happy Sunday Meeno Squad! Here’s your reminder to….jpg" alt="hair">
 </body>
 </html>
