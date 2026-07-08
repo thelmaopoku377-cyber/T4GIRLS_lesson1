@@ -1,0 +1,108 @@
+/* styling across all pages*/  
+   img{
+        width: 150px;
+        height: 200px;
+        border: 4px solid goldenrod;
+        margin: 50px;
+      }
+     
+     nav{
+      border:2px solid black;
+     }
+     nav ul{
+      display: flex;
+      justify-content: flex-end;
+      gap: 25px;
+
+     }
+    
+     nav ul li{
+         list-style: none;
+     }
+     /* styling ends across all pages*/
+     nav ul li a{
+      text-decoration: none;
+      color: black;
+     }
+      
+      .img1{
+         border: 10px double darkred; /* the 3 values represent: border-width bottom */
+         margin: 10px 50px; /* the 2 values represent: top&b0ttom left&right */
+
+     }
+     
+     .img2{
+      border: 12px dotted darkgreen;
+      margin: 10px 25px 20px; /* the 3 values represent: top left&right bottom */ 
+     }
+     p{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+        /*word-spacing: 13px;*/
+        line-height: 1.8;
+        text-align: justify;
+        
+        
+
+        
+
+
+        
+      }
+
+
+      button{
+        color: blueviolet;
+        background-color: aquamarine;
+        opacity: 0.75;
+        width: 150px;
+        height:25px;
+        border: 1px solid blueviolet;
+        border-radius:10px ;
+        cursor: pointer;
+      }
+
+      /* styling ends for the home page */
+
+      /* login styling begins here */
+      .braids{
+        display: flex;
+        width: 400px;
+        margin: 100 px 50px;
+        justify-content: space-between;
+      }
+      .img1{
+        width: 400px;
+        height: auto;
+      }
+      .braids div button{
+        color: white;
+        background-color: #3b241b;
+        border-radius: 10px;
+        height: 50px;
+        border: none;
+        opacity: 0.9;
+        font-size: 23px;
+      }
+      .braids div button:hover{
+         background-color: white;
+         color: #3b241b;
+         border: 1px solid #3b241b;
+        }
+        .braids div{
+          border: 0 solid #3b241b;
+          padding: 10px;
+          box-shadow: 0px 3px 30px brown;
+
+
+        }
+      
+
+
+      
+
+
+    body{
+   /* overflow-y: hidden;*/
+    }
