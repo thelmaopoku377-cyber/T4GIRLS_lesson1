@@ -4,64 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Practice</title>
-    <style>
-      img{
-        width: 150px;
-        height: 200px;
-        border: 4px solid goldenrod;
-        margin: 50px;
-      }
-     
-     .img1{
-         border: 10px double darkred; /* the 3 values represent: border-width border-style border color*/
-         margin: 10px 50px; /* the 2 values represent: top&b0ttom left&right */
-
-     }
-     
-     .img2{
-      border: 12px dotted darkgreen;
-      margin: 10px 25px 20px; /* the 3 values represent: top left&right bottom */ 
-     }
-     p{
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 20px;
-        font-weight: lighter;
-        /*word-spacing: 13px;*/
-        line-height: 1.8;
-        text-align: justify;
-        
-        
-
-        
-
-
-        
-      }
-
-
-      button{
-        color: blueviolet;
-        background-color: aquamarine;
-        opacity: 0.75;
-        width: 150px;
-        height:25px;
-        border: 1px solid blueviolet;
-        border-radius:10px ;
-        
-
-      
-      
-        
-        
-      }
-
-    body{
-   /* overflow-y: hidden;*/
-    }
-    </style>
+    <link rel="stylesheet" href="src/style.css">
 </head>
 <body>
-   <h1></h1>Welcome to HTML lessons with Tech4Girls
+  <nav>
+     <ul>
+    <li><a href="index.html" target="_self" rel="noopener noreferrer">Home</a></li>
+    <li><a href="pages/about.html" target="_self" rel="noopener noreferrer">About</a></li>
+    <li><a href="pages/contact.html" target="_self" rel="noopener noreferrer">Contact Us</a></li>
+    <li><a href="pages/login.html" rel="noopener noreferrer">Login</a></li>
+    <li><a href="pages/signup.html" rel="noopener noreferrer">Signup</a></li>
+  </ul>
+  </nav>
+
+   <h1 style="background-color: grey;">Welcome to HTML lessons with Tech4Girls</h1>
   <p>HTML is the program that  <b>producs the skeleton</b> of a webpage <br>
   Think of it like the raw <i>raw blocks</i> or bricks that make up the house. <br>
   It may not look very <u>visually appealling</u> see the blocks or bricks 
@@ -90,13 +46,7 @@
   <button>buy now</button>
   <a href="https://en.wikipedia.org/wiki/Google" target="_blank" rel="noopener noreferrer">Link to Google</a>
   <a href="pages/about.html" target="_blank" rel="noopener noreferrer">About Us Page</a>
-  <ul>
-    <li><a href="index.html" target="_self" rel="noopener noreferrer">Home</a></li>
-    <li><a href="pages/about.html" target="_self" rel="noopener noreferrer">About</a></li>
-    <li><a href="pages/contact.html" target="_self" rel="noopener noreferrer">Contact Us</a></li>
-    <li><a href="pages/login.html" rel="noopener noreferrer">Login</a></li>
-    <li><a href="pages/signup.html" rel="noopener noreferrer">Signup</a></li>
-  </ul>
-  <img src="images/Happy Sunday Meeno Squad! Here’s your reminder to….jpg" alt="hair">
+ 
+  
 </body>
 </html>
