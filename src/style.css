@@ -68,20 +68,16 @@
       /* login styling begins here */
       .braids{
         display: flex;
-        width: 400px;
-        margin: 100 px 50px;
-        justify-content: space-between;
+        margin: 100px 50px;
+        justify-content: space-around;
       }
-      .img1{
-        width: 400px;
-        height: auto;
-      }
+
+      
       .braids div button{
         color: white;
         background-color: #3b241b;
         border-radius: 10px;
         height: 50px;
-        border: none;
         opacity: 0.9;
         font-size: 23px;
       }
@@ -90,12 +86,35 @@
          color: #3b241b;
          border: 1px solid #3b241b;
         }
-        .braids div{
-          border: 0 solid #3b241b;
-          padding: 10px;
-          box-shadow: 0px 3px 30px brown;
+        .braids div:hover{
+          border: 2px solid #3b241b;
+          padding: 15px;
+          box-shadow: 0px 0px 5px brown;
+        }
+        .braid1 div img{
+          width: 250px;
+          height: auto;
+        }
+        .braid2 div img{
+          width: 250px;
+          height: auto;
+        }
+        .braid3 div img{
+          width: 250px;
+          height: auto;
+        }
+        .braid4 div img{
+          width: 250px;
+          height: auto;
+        }
+        
+        
 
-
+        
+      
+        .braids div img{
+          width: 250px;
+          height: auto;
         }
       
 
